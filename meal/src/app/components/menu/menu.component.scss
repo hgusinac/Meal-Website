@@ -1,0 +1,20 @@
+.menu {
+  display: block;
+  background: white;
+  right: 0;
+  z-index: 101;
+  width: 300px;
+  -webkit-transform: translateX(100%);
+  -ms-transform: translateX(100%);
+  transform: translateX(100%);
+  -webkit-transition: 0.3s all ease;
+  -o-transition: 0.3s all ease;
+  transition: 0.3s all ease;
+  bottom: 0;
+  top: 0;
+  min-height: 300px;
+  overflow: auto;
+  &.site-menu-show {
+    -webkit-transform: translateX(0%);
+  }
+}
